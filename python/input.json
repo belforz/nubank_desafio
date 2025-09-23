@@ -1,0 +1,10 @@
+{
+  "operations": [
+    {"operation":"buy","unitCost":100,"quantity":10,"assetClass":"fund"},
+    {"operation":"sell","unitCost":110,"quantity":10,"assetClass":"fund"}
+  ],
+  "taxes": [
+    {"tax":0.15,"name":"IR","scope":"sell","assetClassScope":["fund"]},
+    {"tax":0.002,"name":"custody","scope":"both","assetClassScope":["fund"]}
+  ]
+}
